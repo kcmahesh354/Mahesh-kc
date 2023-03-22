@@ -1,0 +1,20 @@
+package org.example;
+import java.util.ArrayList;
+import java.util.List;
+public class Main {
+    public static void main(String[] args) {
+    List<String> name= new ArrayList<String>();
+    name.add("Mahesh");
+    name.add("Suren");
+    name.add("Vikash");
+    name.add("Noman");
+    name.add("Amit");
+    name.add("Asif");
+    System.out.println("List of names in arraylist: " + name);
+    String list = name.get(2);
+    System.out.println("This is the third name in list: " +list);
+        list= name.set( 2, "Roman");
+        System.out.println("This is the updated lsit :"+name);
+    }
+
+}
